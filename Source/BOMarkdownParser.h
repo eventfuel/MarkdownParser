@@ -16,7 +16,6 @@ extern NSString * const BOLinkAttributeName;
 
 typedef UIFont * (^BOFontReplacementBlock_t)(UIFont *oldFont);
 
-
 __attribute__((visibility("default")))
 @interface BOMarkdownParser : NSObject
 

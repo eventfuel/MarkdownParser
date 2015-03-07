@@ -25,11 +25,11 @@
 		3EB17E98161F184D00A27750 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB17E8E161F184D00A27750 /* main.m */; };
 		3EB17EA2161F189F00A27750 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB17E42161F17B100A27750 /* Foundation.framework */; };
 		3EB17EAF161F195A00A27750 /* BOMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB17E9C161F187D00A27750 /* BOMarkdownParser.m */; };
-		3EB17EB7161F19A000A27750 /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = 3EB17EB1161F199900A27750 /* array.c */; };
-		3EB17EB8161F19A000A27750 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 3EB17EB2161F199900A27750 /* buffer.c */; };
-		3EB17EB9161F19A000A27750 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = 3EB17EB3161F199900A27750 /* markdown.c */; };
 		3EB17EBF161F1A8700A27750 /* NSAttributedString+Markdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB17EBE161F1A8700A27750 /* NSAttributedString+Markdown.m */; };
 		3EB17EC2161F1F0D00A27750 /* libMarkdownParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB17EA1161F189F00A27750 /* libMarkdownParser.a */; };
+		DC8F346D1AAB0E0100CD066D /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = DC8F34661AAB0E0100CD066D /* array.c */; };
+		DC8F346E1AAB0E0100CD066D /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = DC8F34681AAB0E0100CD066D /* buffer.c */; };
+		DC8F346F1AAB0E0100CD066D /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = DC8F346B1AAB0E0100CD066D /* markdown.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,16 +87,16 @@
 		3EB17E9B161F187D00A27750 /* BOMarkdownParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BOMarkdownParser.h; path = Source/BOMarkdownParser.h; sourceTree = SOURCE_ROOT; };
 		3EB17E9C161F187D00A27750 /* BOMarkdownParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BOMarkdownParser.m; path = Source/BOMarkdownParser.m; sourceTree = SOURCE_ROOT; };
 		3EB17EA1161F189F00A27750 /* libMarkdownParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMarkdownParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EB17EB1161F199900A27750 /* array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = array.c; sourceTree = "<group>"; };
-		3EB17EB2161F199900A27750 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
-		3EB17EB3161F199900A27750 /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = markdown.c; sourceTree = "<group>"; };
-		3EB17EBA161F19B100A27750 /* array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
-		3EB17EBB161F19B100A27750 /* buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
-		3EB17EBC161F19B100A27750 /* markdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = markdown.h; sourceTree = "<group>"; };
 		3EB17EBD161F1A8700A27750 /* NSAttributedString+Markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+Markdown.h"; path = "Source/NSAttributedString+Markdown.h"; sourceTree = SOURCE_ROOT; };
 		3EB17EBE161F1A8700A27750 /* NSAttributedString+Markdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+Markdown.m"; path = "Source/NSAttributedString+Markdown.m"; sourceTree = SOURCE_ROOT; };
-		3EC9321816629BB300DDB33D /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3EC9321916629BD600DDB33D /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
+		DC8F34661AAB0E0100CD066D /* array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = array.c; sourceTree = "<group>"; };
+		DC8F34671AAB0E0100CD066D /* array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = array.h; sourceTree = "<group>"; };
+		DC8F34681AAB0E0100CD066D /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		DC8F34691AAB0E0100CD066D /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		DC8F346A1AAB0E0100CD066D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DC8F346B1AAB0E0100CD066D /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = markdown.c; sourceTree = "<group>"; };
+		DC8F346C1AAB0E0100CD066D /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = markdown.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +138,6 @@
 				3E575BDD161F30EF00286500 /* README.md */,
 				3EC9321916629BD600DDB33D /* LICENSE.md */,
 				3EB17E80161F181600A27750 /* Source */,
-				3EB17EB0161F197500A27750 /* libupskirt */,
 				3EB17E81161F183800A27750 /* App */,
 				3EB17E6A161F17B200A27750 /* Tests */,
 				3EB17E3F161F17B100A27750 /* Frameworks */,
@@ -188,6 +187,7 @@
 		3EB17E80161F181600A27750 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				DC8F34651AAB0E0100CD066D /* libupskirt */,
 				3EB17E9A161F187D00A27750 /* MarkdownParser-Prefix.pch */,
 				3EB17E9B161F187D00A27750 /* BOMarkdownParser.h */,
 				3EB17E9C161F187D00A27750 /* BOMarkdownParser.m */,
@@ -224,20 +224,20 @@
 			path = en.lproj;
 			sourceTree = "<group>";
 		};
-		3EB17EB0161F197500A27750 /* libupskirt */ = {
+		DC8F34651AAB0E0100CD066D /* libupskirt */ = {
 			isa = PBXGroup;
 			children = (
-				3EB17EBA161F19B100A27750 /* array.h */,
-				3EB17EB1161F199900A27750 /* array.c */,
-				3EB17EBB161F19B100A27750 /* buffer.h */,
-				3EB17EB2161F199900A27750 /* buffer.c */,
-				3EB17EBC161F19B100A27750 /* markdown.h */,
-				3EB17EB3161F199900A27750 /* markdown.c */,
-				3EC9321816629BB300DDB33D /* LICENSE */,
+				DC8F34661AAB0E0100CD066D /* array.c */,
+				DC8F34671AAB0E0100CD066D /* array.h */,
+				DC8F34681AAB0E0100CD066D /* buffer.c */,
+				DC8F34691AAB0E0100CD066D /* buffer.h */,
+				DC8F346A1AAB0E0100CD066D /* LICENSE */,
+				DC8F346B1AAB0E0100CD066D /* markdown.c */,
+				DC8F346C1AAB0E0100CD066D /* markdown.h */,
 			);
 			name = libupskirt;
-			path = Submodules/libupskirt;
-			sourceTree = "<group>";
+			path = Source/libupskirt;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -277,7 +277,7 @@
 			name = MarkdownParserTests;
 			productName = MarkdownParserTests;
 			productReference = 3EB17E63161F17B200A27750 /* MarkdownParserTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		3EB17EA0161F189F00A27750 /* MarkdownParser */ = {
 			isa = PBXNativeTarget;
@@ -387,11 +387,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8F346D1AAB0E0100CD066D /* array.c in Sources */,
+				DC8F346F1AAB0E0100CD066D /* markdown.c in Sources */,
 				3EB17EAF161F195A00A27750 /* BOMarkdownParser.m in Sources */,
-				3EB17EB7161F19A000A27750 /* array.c in Sources */,
-				3EB17EB8161F19A000A27750 /* buffer.c in Sources */,
-				3EB17EB9161F19A000A27750 /* markdown.c in Sources */,
 				3EB17EBF161F1A8700A27750 /* NSAttributedString+Markdown.m in Sources */,
+				DC8F346E1AAB0E0100CD066D /* buffer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

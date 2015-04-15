@@ -93,6 +93,14 @@ static void renderNormalText(struct buf *ob, struct buf *text, void *opaque);
     return self;
 }
 
+- (void)setLinkAttributeName:(NSString *)linkAttributeName {
+    if(linkAttributeName.length == 0) {
+        _linkAttributeName = BOLinkAttributeName;
+    } else {
+        _linkAttributeName = linkAttributeName;
+    }
+}
+
 - (NSAttributedString *)parseString:(NSString *)input;
 {
     if (input == nil) {
@@ -161,6 +169,7 @@ static void renderNormalText(struct buf *ob, struct buf *text, void *opaque);
 
 - (void)setupAttributes;
 {
+    self.linkAttributeName = BOLinkAttributeName;
     self.unorderedListBullet = @"•";
     self.listNumberFromIndex = ^(int listIndex) { return [NSString stringWithFormat:@"%d.", listIndex]; };
     
@@ -230,7 +239,7 @@ static void renderNormalText(struct buf *ob, struct buf *text, void *opaque);
                                NSUInteger const linkIndex = (marker - linkOffset);
                                if (linkIndex < [self.links count]) {
                                    id link = [self.links objectAtIndex:linkIndex];
-                                   return @{NSForegroundColorAttributeName : self.linkTextColor, BOLinkAttributeName : link};
+                                   return @{NSForegroundColorAttributeName : self.linkTextColor, self.linkAttributeName : link};
                                } else { return nil; }
                            } fontBlock:self.replaceLinkFont];
     

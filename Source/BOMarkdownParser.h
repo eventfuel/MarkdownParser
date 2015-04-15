@@ -24,6 +24,7 @@ __attribute__((visibility("default")))
 @property (nonatomic, strong) UIFont *font;
 @property (nonatomic, strong) UIColor *textColor;
 @property (nonatomic, strong) NSMutableParagraphStyle *paragraphStyle;
+@property (nonatomic, strong) NSString *linkAttributeName;
 
 @property (nonatomic, copy) NSString *unorderedListBullet;
 @property (nonatomic, copy) NSString *(^listNumberFromIndex)(int const itemIndex);

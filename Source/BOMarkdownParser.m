@@ -107,7 +107,7 @@ static void renderNormalText(struct buf *ob, struct buf *text, void *opaque);
         return nil;
     }
     
-    NSDictionary *baseAttributes = @{NSFontAttributeName : self.font, NSForegroundColorAttributeName : self.textColor};
+    NSDictionary *baseAttributes = @{NSFontAttributeName : self.font, NSForegroundColorAttributeName : self.textColor, NSParagraphStyleAttributeName : self.paragraphStyle};
     
     [self preParseSetupAttributes];
     
@@ -182,6 +182,7 @@ static void renderNormalText(struct buf *ob, struct buf *text, void *opaque);
     
     self.font = [UIFont systemFontOfSize:[UIFont systemFontSize]];
     self.textColor = [UIColor blackColor];
+    self.paragraphStyle = [[NSMutableParagraphStyle alloc] init];
     
     self.emphasizeFont = ^(UIFont *originalFont) {
         CGFloat size = originalFont.pointSize;

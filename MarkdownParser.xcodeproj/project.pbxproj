@@ -30,6 +30,7 @@
 		DC8F346D1AAB0E0100CD066D /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = DC8F34661AAB0E0100CD066D /* array.c */; };
 		DC8F346E1AAB0E0100CD066D /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = DC8F34681AAB0E0100CD066D /* buffer.c */; };
 		DC8F346F1AAB0E0100CD066D /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = DC8F346B1AAB0E0100CD066D /* markdown.c */; };
+		DCE9FD3E1BA020BE00158788 /* MarkdownParser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DCE9FD3D1BA020BE00158788 /* MarkdownParser.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		DC8F346A1AAB0E0100CD066D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DC8F346B1AAB0E0100CD066D /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = markdown.c; sourceTree = "<group>"; };
 		DC8F346C1AAB0E0100CD066D /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = markdown.h; sourceTree = "<group>"; };
+		DCE9FD3D1BA020BE00158788 /* MarkdownParser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MarkdownParser.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		3EB17E31161F17B100A27750 = {
 			isa = PBXGroup;
 			children = (
+				DCE9FD3D1BA020BE00158788 /* MarkdownParser.podspec */,
 				3E575BDD161F30EF00286500 /* README.md */,
 				3EC9321916629BD600DDB33D /* LICENSE.md */,
 				3EB17E80161F181600A27750 /* Source */,
@@ -342,6 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE9FD3E1BA020BE00158788 /* MarkdownParser.podspec in Resources */,
 				3EB17E6F161F17B200A27750 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

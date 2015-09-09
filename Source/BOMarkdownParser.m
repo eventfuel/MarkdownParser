@@ -354,7 +354,7 @@ static int renderLinebreak(struct buf *ob, void *UNUSED opaque) {
 }
 
 static int renderLink(UNUSED struct buf *ob, struct buf *linkBuffer, struct buf *UNUSED title, struct buf *content, void *opaque) {
-    NSData *linkData = [NSData dataWithBytes:linkBuffer->data length:linkBuffer->size];
+    NSData *linkData = linkBuffer ? [NSData dataWithBytes:linkBuffer->data length:linkBuffer->size] : nil;
     NSString *linkString = [[NSString alloc] initWithData:linkData encoding:NSUTF8StringEncoding];
     if (linkString != nil) {
         BOMarkdownParser *const parser = (__bridge BOMarkdownParser *)opaque;
